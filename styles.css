@@ -470,7 +470,7 @@ footer .copyright .pro-links i:hover {
 /*pagina sobre pequenos detalhes*/
 
 #about-home {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(/img/productbgipp.gif);
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(img/productbgipp.gif);
     width: 100%;
     height: 80vh;
     background-size: cover;
@@ -563,7 +563,7 @@ footer .copyright .pro-links i:hover {
 /*blog*/
 
 #blog-home {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(/img/blogbcimg.gif);
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(img/blogbcimg.gif);
     width: 100%;
     height: 80vh;
     background-size: cover;
@@ -655,7 +655,7 @@ footer .copyright .pro-links i:hover {
 
 /*cursos*/
 #course-home {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(/img/productbgi.gif);
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(img/productbgi.gif);
     width: 100%;
     height: 80vh;
     background-size: cover;
@@ -826,7 +826,7 @@ footer .copyright .pro-links i:hover {
 }
 
 #contact-home {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(/img/contactbgi.gif);
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(img/contactbgi.gif);
     width: 100%;
     height: 90vh;
     background-size: cover;
