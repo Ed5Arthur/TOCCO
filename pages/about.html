@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tocco.inc</title>
+    <link rel="icon" href="/img/logotipoTocco.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!--Navegation-->
+
+    <nav>
+        <img src="/img/logo.png" alt="Logo da empresa">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a class="active" href="#">Sobre</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Cursos</a></li>
+                <li><a href="contact.html">Contate-nos</a></li>
+            </ul>
+            <img id="menu-btn" href="/img/bars-solid.svg" alt="">
+        </div>
+    </nav>
+
+    <!--inicio-->
+
+    <section id="about-home">
+        <h2>Sobre a Tocco.inc</h2>
+    </section>
+
+    <section id="about-container">
+        <div class="about-img">
+            <!--achar uma imagem menor-->
+            <img src="/img/about2.jpg" alt="cara estudando">
+        </div>
+        <div class="about-text">
+            <h2>Bem-vindo a Tocco, De um Boost em suas Habilidades com nossos Cursos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ratione repellendus nam, labore ea eum?
+            </p>
+            <div class="about-fe">
+                <!--tirar o fundo deixar transparente-->
+                <img src="/img/fe1.avif" alt="mulher estudanto">
+                <div class="fe-text">
+                    <h5>+100 Cursos</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid officia dicta provident
+                        incidunt sequi fuga!</p>
+                </div>
+            </div>
+            <div class="about-fe">
+                <!--mudar por algo relacionado ao acesso do curso-->
+                <img src="/img/fe1.avif" alt="mulher estudanto">
+                <div class="fe-text">
+                    <h5>Acesso Permanente</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid officia dicta provident
+                        incidunt sequi fuga!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Recursos-->
+
+    <section id="features">
+        <h1>Recursos Incriveis</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, aperiam.</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Cursos Completos</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, cum?</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-school"></i>
+                <h3>Cursos Online</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, cum?</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3>Certifcação Global</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, cum?</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="trust">
+        <h1>Testado pelas Seguintes Intituições</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="trust-img">
+            <img src="/img/trust1.png" alt="">
+            <img src="/img/trust2.png" alt="">
+            <img src="/img/trust3.png" alt="">
+            <img src="/img/trust4.png" alt="">
+            <img src="/img/trust5.png" alt="">
+            <img src="/img/trust6.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <ul>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Manage Website</li>
+                <li>Marketing Service</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <ul>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Manage Website</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <ul>
+                <li>Manage Reputation</li>
+                <li>Marketing Service</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <ul>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Manage Website</li>
+                <li>Marketing Service</li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Novidades</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Seu E-mail">
+                <a href="#">Inscreva-se</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This template is made by Tocco.inc</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        })
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        })
+    </script>
+
+
+</body>
+
+</html>

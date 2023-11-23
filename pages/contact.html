@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tocco.inc</title>
+    <link rel="icon" href="/img/logotipoTocco.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!--Navegation-->
+
+    <nav>
+        <img src="/img/logo.png" alt="Logo da empresa">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Cursos</a></li>
+                <li><a class="active" href="contact.html">Contate-nos</a></li>
+            </ul>
+            <img id="menu-btn" href="/img/bars-solid.svg" alt="">
+        </div>
+    </nav>
+
+    <!--inicio-->
+
+    <section id="contact-home">
+        <h2>Contate-nos</h2>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="getin">
+            <h2>Entrar em Contato</h2>
+            <p>Precisando de ajuda? Preencha o formulario para começar sua nova aventura.</p>
+
+            <div class="getin-details">
+                <h3>Sede</h3>
+                <div>
+                    <i class="fas fa-home get"></i>
+                    <p>744 British Columbia
+                        Canadá 10224</p>
+                </div>
+
+                <h3>Telefone</h3>
+                <div>
+                    <i class="fas fa-phone-alt get"></i>
+                    <p>
+                        (+642) 123 456 789 <br> (+420) 987 654 321
+                    </p>
+                </div>
+
+                <h3>Suporte</h3>
+                <div>
+                    <i class="fas fa-envelope-open-text get"></i>
+                    <p>toccoinc@support.com.br <br> help@tocco.com</p>
+                </div>
+                <h3>Siga-nos</h3>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="form">
+            <h4>Vamos Conversar!</h4>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="form-row">
+                <input type="text" placeholder="Seu Nome">
+                <input type="text" placeholder="E-mail">
+            </div>
+            <div class="form-col">
+                <input type="text" placeholder="Assunto">
+            </div>
+            <div class="form-col">
+                <textarea name="" id="" cols="30" rows="8" placeholder="Como podemos ajudar?"></textarea>
+            </div>
+            <div class="form-col">
+                <button>Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9677779.7442991!2d-137.10215230449057!3d53.6872734883237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537a66c7aa6b6aaf%3A0x881b41e937e7f1f9!2zQ29sw7ptYmlhIEJyaXTDom5pY2EsIENhbmFkw6E!5e0!3m2!1spt-BR!2sbr!4v1700737426679!5m2!1spt-BR!2sbr"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <ul>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Manage Website</li>
+                <li>Marketing Service</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <ul>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Manage Website</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <ul>
+                <li>Manage Reputation</li>
+                <li>Marketing Service</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <ul>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Manage Website</li>
+                <li>Marketing Service</li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Novidades</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Seu E-mail">
+                <a href="#">Inscreva-se</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This template is made by Tocco.inc</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        })
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        })
+    </script>
+
+
+</body>
+
+</html>
