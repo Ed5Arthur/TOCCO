@@ -502,6 +502,7 @@ footer .copyright .pro-links i:hover {
 
 #about-container .about-img img {
     width: 100%;
+    border-radius: 5px;
 }
 
 #about-container .about-text {
@@ -774,7 +775,7 @@ footer .copyright .pro-links i:hover {
 }
 
 #course-inner .enroll {
-    width: 300px;
+    width: 460px;
     padding: 0 30px 30px 30px;
     border-radius: 11px;
     box-shadow: 0px 20px 40px 0 rgb(11 2 55 / 8%);
